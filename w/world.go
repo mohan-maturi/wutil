@@ -1,10 +1,8 @@
 package w
 
-import "fmt"
+import "util"
 
 func PrintWorld(name string) string {
-	w := "Hello World!!! This is " + name
-	fmt.Printf("World Greeting is - %s\n", w)
-	return w
+	return util.GetString(name)
 } 
 
